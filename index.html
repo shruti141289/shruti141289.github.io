@@ -1,29 +1,165 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
-<html>
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+<title>World of Design</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="og:title" content="World of Design">
+<meta property="og:description" content="World of Design - Web Development - Web Design - Graphic Design - Communiaction Design Company in India">
+<meta property="og:type" content="WebSite">
+<meta property="og:url" content="http://worldofdsgn.com">
+<meta property="og:site_name" content="World of Design">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Graphic Design Comapany india, Communication Design Company, Web Development Company India, Web Design Company in India, Logo Design">
+<meta name="description" content="Start your Online Business/Ecommerce Store with World of Design Professional Web and Mobile Application Development Team. We are Experts of Website design, Logo Design, Communication Design and Graphic Design. See our Awesome Portfolio and Clients">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="World of Design">
+<meta property="og:site_name" content="World of Design">
+<meta property="og:url" content="http://worldofdsgn.com">
+<meta property="og:url" content="http://worldofdsgn.com">
+<meta property="og:type" content="website">
+<meta property="og:description" content="customizing Designs for you">
+
+<link href="https://plus.google.com/+worldofdesign" rel="publisher">
+<link rel="pingback" href="http://worldofdsgn.com/xmlrpc.php">
+
+<link rel="stylesheet" id="child-theme-css" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" id="responsive-main-css-css" href="css/responsive-main.min.css" type="text/css" media="all" />
+<link rel="stylesheet" id="responsive-css-css" href="css/responsive.css" type="text/css" media="all" />
+<link rel="stylesheet" id="tb_styles-css" href="css/tb-styles.min.css" type="text/css" media="all" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript">
+  jQuery(window).scroll(function (event) {
+	  	
+		var top = jQuery('#popular-upcoming').offset().top - jQuery(document).scrollTop();;
+		// what the y position of the scroll is
+		var y = jQuery(this).scrollTop();
+		// whether that's below the form
+		if (y >= top)  {
+		// if so, add the active class to popular-upcoming and remove from content
+		jQuery('.page-nav-popular-posts').addClass('active');
+		jQuery('.page-nav-top-posts').removeClass('active');
+		} else {
+		// otherwise remove it
+		jQuery('.page-nav-popular-posts').removeClass('active');
+		jQuery('.page-nav-top-posts').addClass('active');
+	   }
+  });
   
-
-  <title>World of Design</title>
-  <meta name="description" content="My website">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
+  jQuery(document).ready(function (){
+  jQuery('#popular-scroll').click(function (){
+            //jQuery(this).animate(function(){
+                jQuery('html, body').animate({
+                    scrollTop: jQuery('#popular-upcoming').offset().top
+                     }, 2000);
+            //});
+        });
+		
+		jQuery('#feature-scroll').click(function (){
+            //jQuery(this).animate(function(){
+                jQuery('html, body').animate({
+                    scrollTop: jQuery('#inner').offset().top
+                     }, 2000);
+            //});
+        });
+		  });
+	  </script>
 </head>
 
-<body>
+<body class="home blog header-full-width full-width-content">
+  <div id="header">
+  <div class="site-header">
+    <h1 class="site-header-logo-container">
+    <a href="index.htm"><span class="image-replace">World of Design</span>
+    <img src="images/WOD-Logo.png" width="200" height="55" id="wod-logo" alt="wod" /></a>
+    </h1>
 
-  <div class="wrapper">
-    
-    <div id="container">
-       <img src="/images/Coming-soon.png" height="800" width="1366"> 
+<div id="site-nav" class="horizontal-list"><div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-144" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-144"><a href="index.htm">Home</a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="world of design about.htm">About Us</a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="world of design services.htm">Services</a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="world of design quote.htm">Get A Quote</a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142"><a href="world of design contact.htm">Contact Us</a></li>
+</ul></div></div><!-- #site-nav -->
+<div id="site-header-wod-social">
+<ul class="horizontal-list">
+<li><a href="https://twitter.com/worldofdsgn" target="_blank" class="wod-social-twitter wod-social-icon image-replace">Twitter</a></li>
+<li><a href="https://www.facebook.com/designer.shrutijain?ref=aymt_homepage_panel" target="_blank" class="wod-social-fb wod-social-icon image-replace">Facebook</a></li>
+<li><a href="https://plus.google.com/u/0/103537387264286850958/posts" target="_blank" class="wod-social-gplus wod-social-icon image-replace">Google+</a></li>
+</ul>
+      
+    </div>  
     </div>
-    
   </div>
-  
+  <div id="wrap">
+<div id="inner">
+<div class="wrap">
+<div id="content-sidebar-wrap">
+				
+				<div id="content" class="hfeed">
+				<div class="post-5 post type-post status-publish format-standard hentry category-featured category-parent-category-i entry feature feature">
+
+		<a href="index.htm" title="Welcome to wod"><img width="660" height="370" src="images/wod-banner.png" class="alignleft post-image" alt="1" /></a>		
+        <p style="font-size:34px; font-weight:400; font-family:'Oswald',arial,serif; color:#606060; margin-top:7px; padding-top:58px;">&nbsp;Welcome to World of Design</p> 
+		
+				<div class="entry-content">
+			<p style="font-weight:600; color:#606060; font-size:18px;">Welcome! We look forward to adding value to your business.</p>
+              <p style="margin-top:-15px;"> World of Design holds expertise in providing customized Web solutions as per your requirements - Web Design and Development, UX/UI Designs, Mobile Applications, Logo Designs, Graphic Designs. The company has a proven track record and happy customers all the way.
+            </p>
+
+				</div><!-- end .entry-content -->
+		
+	</div><!-- end .postclass -->
+		<div class="post-1 post type-post status-publish format-standard hentry category-featured category-uncategorized entry fourcol first one-third teaser first" >
+
+		<img width="300" height="168" src="images/web-design.png" alt="Web Deign"  style="margin-left:18px; margin-top:14px;"/>		
+
+		
+				<div class="entry-content">
+			<p>It is the web design that captures the browser's attention and the web content and functionality keeps the attention.<br>
+We aims to keep design clear and crisp, easy to navigate and quick to download.<br>
+A good design reinforces your message and delivers it with more impact.</p>
+
+		</div><!-- end .entry-content -->
+		
+	</div><!-- end .postclass -->
+		<div class="post-63 post type-post status-publish format-standard hentry category-child-category-i category-featured category-parent-category-i category-parent-category-ii tag-tag2 tag-tag5 tag-tag6 entry fourcol one-third teaser">
+
+		<img width="300" height="168" src="images/graphic-design.png" alt="Web Deign" style="margin-left:28px; margin-top:14px;" />		
+		
+				<div class="entry-content">
+			<p>We infuse passion into every design crafted graphically through latest techniques and methods.<br>
+Our designs are crafted with the sole aim of creating a visual impact in a single glance.<br>&nbsp; <br>&nbsp;</p>
+
+			</div><!-- end .entry-content -->
+		
+	</div><!-- end .postclass -->
+		<div class="post-61 post type-post status-publish format-standard hentry category-featured category-uncategorized entry fourcol one-third teaser">
+
+		<img width="300" height="168" src="images/logo-design.png" alt="Web Deign" style="margin-left:39px; margin-top:14px;"/>		
+		
+				<div class="entry-content">
+			<p>A logo isn't just a pretty visual image printed next to your name. It is an integral component of your brand and frequently the first thing a customer sees. <br> We create logo designs that are as spectacular and unique as you and your business. <br>&nbsp; </p>
+
+		</div><!-- end .entry-content -->
+		
+	</div><!-- end .postclass -->
+		
+</div><!-- end #content -->
+
+</div><!-- end .wrap --></div><!-- end #inner --> 
+
+<div id="wod-footer">
+<p align="center" style="margin-top:-22px;"> © 2015 World of Design, India</p>
+</div>
+ 
+</div><!-- end #wrap -->
+
+
+</div>
 </body>
 </html>
